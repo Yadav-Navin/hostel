@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.section_top{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    background-image: url('img/deluxe-room.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.section_top a{
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 2px 5px;
+    background-color: blue;
+    color: white;
+}
+
+h1,a{
+    margin-top: 30%;
+}
+a:hover{
+    cursor: pointer;
+    color: black;
+}
+
